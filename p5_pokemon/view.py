@@ -13,7 +13,7 @@ def home_route():
 
 #connects /hello path of server to render hello.html
 @p5_pokemon_bp.route('/hello/')
-def hello_rooute():
+def hello_route():
   return render_template("hello.html", projects=projects.setup())
 
 #connects /flask path of server to render flask.html
