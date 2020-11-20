@@ -51,6 +51,10 @@ app.register_blueprint(p4_hangman_bp, url_prefix='/p4_hangman')
 from p5_calculus import p5_calculus_bp
 app.register_blueprint(p5_calculus_bp, url_prefix='/p5_chessGame')
 
+from p5_pokemon import p5_pokemon_bp
+app.register_blueprint(p5_pokemon_bp, url_prefix='/p5_pokemon')
+p5_pokemon
+
 
 
 # Teacher Sample
